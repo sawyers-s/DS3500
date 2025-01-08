@@ -1,0 +1,68 @@
+Assigned sections for each TA: 
+	TA_ID0: Sections[8]
+	TA_ID1: No sections
+	TA_ID2: Sections[8]
+	TA_ID3: Sections[14]
+	TA_ID4: Sections[7]
+	TA_ID5: No sections
+	TA_ID6: Sections[8]
+	TA_ID7: Sections[9, 15]
+	TA_ID8: Sections[0]
+	TA_ID9: Sections[11]
+	TA_ID10: Sections[5, 6]
+	TA_ID11: Sections[14]
+	TA_ID12: Sections[0]
+	TA_ID13: Sections[7, 15]
+	TA_ID14: Sections[13]
+	TA_ID15: Sections[2, 11]
+	TA_ID16: Sections[14]
+	TA_ID17: Sections[4]
+	TA_ID18: Sections[1]
+	TA_ID19: Sections[10]
+	TA_ID20: Sections[0]
+	TA_ID21: Sections[5]
+	TA_ID22: Sections[4]
+	TA_ID23: Sections[15]
+	TA_ID24: Sections[10, 11]
+	TA_ID25: Sections[0]
+	TA_ID26: Sections[1]
+	TA_ID27: Sections[5]
+	TA_ID28: Sections[13]
+	TA_ID29: Sections[4]
+	TA_ID30: Sections[16]
+	TA_ID31: Sections[2]
+	TA_ID32: No sections
+	TA_ID33: Sections[12]
+	TA_ID34: Sections[10]
+	TA_ID35: Sections[6]
+	TA_ID36: Sections[12]
+	TA_ID37: Sections[1]
+	TA_ID38: Sections[0]
+	TA_ID39: Sections[2, 3]
+	TA_ID40: Sections[0]
+	TA_ID41: Sections[10]
+	TA_ID42: No sections
+
+Assigned TAs for each section:
+	Section0: TA[8, 12, 20, 25, 38, 40]
+	Section1: TA[18, 26, 37]
+	Section2: TA[15, 31, 39]
+	Section3: TA[39]
+	Section4: TA[17, 22, 29]
+	Section5: TA[10, 21, 27]
+	Section6: TA[10, 35]
+	Section7: TA[4, 13]
+	Section8: TA[0, 2, 6]
+	Section9: TA[7]
+	Section10: TA[19, 24, 34, 41]
+	Section11: TA[9, 15, 24]
+	Section12: TA[33, 36]
+	Section13: TA[14, 28]
+	Section14: TA[3, 11, 16]
+	Section15: TA[7, 13, 23]
+	Section16: TA[30]
+
+Evaluation scores of chosen solution: (('overallocation', 0), ('conflicts', 2), ('undersupport', 5), ('unwilling', 0), ('unpreferred', 4))
+
+Why I consider it my best solution in lieu of tradeoffs:
+In looking at the different objectives, I felt as though 'overallocation' and 'unwilling' should be prioritized as these pertain to needs directly expressed by TAs regarding their workload capacity. With this in mind, a failure to abide by these expressed needs during scheduling will overextend the TA (something that is unfair given being a TA is voluntary and their needs were clearly expressed before scheduling) and possibly hurt their overall perception of the Khoury TA program. The solution above achieves 0 overallocations so no TA is responsible for supporting more labs than they are capable of as well as 0 unwilling assignments so no TA is assigned to a section they are unwilling to support. In doing so, TAs won't be assigned to labs that violate their basic scheduling needs. While this solution has 5 undersupported sections, there are still four TAs that are assigned to no sections, as shown above. Therefore, Khoury still may have the option to assign these TAs to one (or two) of these undersupported sections if the TA agrees. While this is not ideal (unassigned TAs may not agree to help) and I think undersupport is an important objective to consider, this solution had the lowest undersupport objective score of the solutions that had 0 overallocations and 0 unwilling assignments (which I believe are the most important objectives to maintaining TA happiness and satisfaction), leading to my selection of this solution. Finally, this solution had 4 unpreferred assignments. Despite this score being tied for highest unpreferred score for all non-dominated solutions, I felt that this objective was least important to consider because it represents an ideal scenario. In other words, while it would be nice to assign all TAs to sections they prefer, there are some cases where I believe it is worth assigning a TA to a section they are only willing (not unwilling) to support for the sake of minimizing conflicts or undersupport as these objectives relate directly to the quality of TA support students will be receiving (need TAs available at class time to help). While it is important to prioritize TA satisfaction with assignments as mentioned earlier, being a TA also means working when help is most needed, which may not always be at preferred times. For all these reasons, I consider the solution above to be my best solution.

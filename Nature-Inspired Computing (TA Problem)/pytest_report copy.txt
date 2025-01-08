@@ -1,0 +1,26 @@
+(ds) Sophies-MacBook-Pro:hw5 sophiesawyers$ python -m pytest -v --cov --cov-report term-missing
+========================================================================= test session starts =========================================================================
+platform darwin -- Python 3.12.4, pytest-8.3.3, pluggy-1.5.0 -- /Users/sophiesawyers/anaconda3/envs/ds/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/sophiesawyers/Desktop/NORTHEASTERN UNIVERSITY/Classes/Fall 2024 Semester/Advanced Programming with Data/ds3500/hw5
+plugins: cov-5.0.0
+collected 5 items                                                                                                                                                     
+
+test_assignta.py::test_minimize_overallocation PASSED                                                                                                           [ 20%]
+test_assignta.py::test_minimize_conflicts PASSED                                                                                                                [ 40%]
+test_assignta.py::test_minimize_undersupport PASSED                                                                                                             [ 60%]
+test_assignta.py::test_minimize_unwilling PASSED                                                                                                                [ 80%]
+test_assignta.py::test_minimize_unpreferred PASSED                                                                                                              [100%]
+
+---------- coverage: platform darwin, python 3.12.4-final-0 ----------
+Name               Stmts   Miss  Cover   Missing
+------------------------------------------------
+assignta.py          182    140    23%   73-115, 121-133, 139-197, 203-231, 237-269, 275-292, 298-307, 316-333, 341-370, 374
+evo.py                64     45    30%   16-18, 22, 28, 32-33, 37-42, 46-49, 56-59, 62, 65-66, 75-104, 108-111
+profiler.py           27      4    85%   43-46
+test_assignta.py      47      0   100%
+------------------------------------------------
+TOTAL                320    189    41%
+
+
+========================================================================== 5 passed in 0.53s ==========================================================================
