@@ -2,6 +2,8 @@
 This repository contains projects for the DS3500 Advanced Programming with Data course at Northeastern University taken in fall 2024.
 
 ## Deliverables
+### Note: All deliverables can also be found in each project's respective repository folder.
+
 #### IMDb Dashboard
 To view the dashboard for this project, simply run the imdb_explorer.py file. The dashboard will open in a new window in your browser.
 
