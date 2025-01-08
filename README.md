@@ -18,9 +18,9 @@ To view the visualizations for this project, click [here](https://drive.google.c
 To read the written analysis for this project, click [here](https://docs.google.com/document/d/18FjSpRNKUkPQDI1kBlVj7UaUxwUs93bdHvDnCwriZQ4/edit?usp=sharing).
 
 #### Nature-Inspired Computing (TA Problem)
-To view the final non-dominated Pareto-optimal solutions for this project, simply view the non_dominated_solution_scores.csv file.
+To view the final non-dominated Pareto-optimal solutions for this project, click [here](https://drive.google.com/file/d/1K2Ekokeb1STjyU9prr8GSj97dP6_lTmW/view?usp=sharing).
 
-To read about my chosen best solution for this project, simply view the best_solution_details.txt file.
+To read about my chosen best solution for this project, click [here](https://drive.google.com/file/d/1G04d5MD2Qxhy-KY8F77hJ-sreYVjUo6R/view?usp=sharing).
 
 The profiling report for the optimizer in this project (which includes total calls, total seconds, and seconds per call by function) can be found in the profiling_report.txt file.
 
